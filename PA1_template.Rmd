@@ -66,7 +66,7 @@ maxintervalseq<-maxinterval/5
 maxintervaltime<-sprintf("%02d:%02d",floor(maxinterval/60), maxinterval %% 60)
 maxintervaltime
 ```
-On the average across all the days in the dataset, the `r maxintervalseq`th 5-minute interval (`r maxintervaltime`) contains the maximum number of steps. 
+On the average across all the days in the dataset, the `r maxintervalseq`th 5-minute interval (`r maxintervaltime`) contains the maximum number of steps `r round(max(intervalave))`. 
 
 ## Imputing missing values
 

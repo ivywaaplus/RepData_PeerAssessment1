@@ -97,7 +97,7 @@ maxintervaltime
 ```
 ## [1] "08:35"
 ```
-On the average across all the days in the dataset, the 103th 5-minute interval (08:35) contains the maximum number of steps. 
+On the average across all the days in the dataset, the 103th 5-minute interval (08:35) contains the maximum number of steps 206. 
 
 ## Imputing missing values
 
